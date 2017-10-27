@@ -1,0 +1,134 @@
+
+body{
+	background: url(https://cdn.spacetelescope.org/archives/images/publicationjpg/heic1313b.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+header{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	color: white;
+	z-index: 1;
+}
+ul{text-decoration: none;
+	float: right;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+
+}
+li{
+	display: inline-block;
+	border:2px groove grey;
+	background-color: black;
+	padding: 10px;
+	border-radius: 40%;
+	min-width: 70px;
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: bolder;
+}
+main{
+	margin-top: 15%;
+}
+.container{
+	width:90%;
+	max-width: 1500px;
+	margin: 0 auto;	
+
+
+}
+
+
+.glavni{
+	width: 80%;
+	margin: 5% auto;
+}
+.tekst{
+	position: relative;
+	border: 5px groove grey ;
+	border-radius: 20px;
+	margin-top:  -50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	padding: 2% 5% 5%;
+	text-align: justify;
+	background: darkgrey;
+	
+
+
+}
+p{
+	text-indent: 50px;
+	
+	margin: 7% 3%; 
+
+}
+.cover{
+	height: 300px;
+	width: 100%;
+	background: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2x/vd/p02xvd90.jpg );
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position: bottom center;
+	border-radius: 2%
+
+
+}
+.drugi{
+	background: url(http://www.unawe.org/static/archives/images/screen/vla_panorama_med.jpg);
+	
+	background-position: center;
+	
+	
+}
+img{
+	width:50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.slika{
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+.datum{
+	font-size: 0.8em;
+}
+a{
+	font-weight: bolder;
+	color:navy;
+	text-decoration: none;
+}
+@media screen and (max-width: 400px){
+
+.cover {
+    display: none;
+}
+}
+@media screen and (max-width: 400px){
+
+.tekst {
+    margin:auto;
+}
+}
+
+@media screen and (max-width: 600px){
+.slika {
+    display: none;
+}
+}
+@media screen and (max-width: 500px){
+	.tekst{
+		border:none;
+	}
+}
+@media screen and (max-width: 350px){
+li {
+   display:none; ;
+}
